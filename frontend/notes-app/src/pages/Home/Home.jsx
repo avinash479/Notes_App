@@ -4,7 +4,7 @@ import Notecard from '../../components/Cards/Notecard';
 import { MdAdd } from 'react-icons/md';
 import AddEditNotes from "./AddEditNotes";
 import Modal from 'react-modal';
-import axiosInstance from '../../../utils/axiosinstance';
+import axiosInstance from '../../../utils/axiosInstance';
 import { useNavigate } from 'react-router-dom';
 import Toast from '../../../ToastMessage/Toast';
 import EmptyCard from '../../EmptyCard/EmptyCard';
