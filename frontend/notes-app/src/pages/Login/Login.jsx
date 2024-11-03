@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {Link, useNavigate} from "react-router-dom";
 import PasswordInput from "../../components/Input/PasswordInput";
 import ValdiateEmail from "../../../utils/helper";
-import axiosInstance from "../../../utils/axiosinstance";
+import axiosInstance from "../../../utils/axiosInstance";
 import Navbar1 from "../../components/Navbar/Navbar1";
 const Login =()=>{
     const[email,setemail]=useState("");
