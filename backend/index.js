@@ -21,6 +21,8 @@ app.use(express.json());
 app.use(
     cors({
         origin: "notes-app-frontend-steel.vercel.app",
+        methods: ["GET", "POST", "PUT", "DELETE"],
+        credentials: true
     })
 );
 
