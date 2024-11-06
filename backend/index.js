@@ -20,7 +20,7 @@ const port=process.env.PORT ||8000;
 app.use(express.json());
 app.use(
     cors({
-        origin: "*",
+        origin: "notes-app-frontend-steel.vercel.app",
     })
 );
 
