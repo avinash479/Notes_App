@@ -1,1 +1,1 @@
-export const BASE_URL="notes-app-backend-delta.vercel.app"
+export const BASE_URL="https://notes-app-backend-git-main-avinash479s-projects.vercel.app/"
